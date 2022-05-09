@@ -8,13 +8,13 @@ function App() {
     <div className="App">
       <div className='container'>
         <div className='row'>
-          <div className='col-2'>
+          <div className='col-3'>
             <div className='sticky-top'>
               <Logo />
               <Navbar />
             </div>
           </div>
-          <div className='col-10'>
+          <div className='col-9'>
             <Home />
           </div>
         </div>

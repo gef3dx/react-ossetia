@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Oswald-Medium";
+    font-style: bold;
+    font-weight: 500;
+    src: url("../fonts/oswald/Oswald-Medium.ttf") format("truetype");
+
+  }
+
+.logo{
+    display: flex;
+    margin-top: 20px;
+}
+.logo__svg {
+
+}
+
+.logo__text {
+    font-family: "Oswald-Medium", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 5px;
+}
