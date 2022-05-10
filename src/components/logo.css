@@ -4,14 +4,11 @@
     font-weight: 500;
     src: url("../fonts/oswald/Oswald-Medium.ttf") format("truetype");
 
-  }
+}
 
 .logo{
     display: flex;
-    margin-top: 20px;
-}
-.logo__svg {
-
+    padding: 20px 0 20px 0;
 }
 
 .logo__text {

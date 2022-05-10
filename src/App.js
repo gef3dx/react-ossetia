@@ -2,6 +2,7 @@ import './App.css';
 import Logo from'./components/Logo'
 import Navbar from'./components/Navbar'
 import Home from'./pages/Home'
+import './fonts/fontawesome6/all.min.css'
 
 function App() {
   return (
