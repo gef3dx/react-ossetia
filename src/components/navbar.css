@@ -1,0 +1,18 @@
+.navbar__ul {
+    list-style: none;
+}
+.nabar__li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.nabar__li i {
+    padding-right: 25px;
+    font-size: 1.6rem;
+}
+.navbar__link {
+    font-size: 1.4rem;
+    text-align: left;
+}
