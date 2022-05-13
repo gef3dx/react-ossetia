@@ -5,7 +5,7 @@ function Logo() {
   return (
     <div className='logo'>
         <svg className='logo__svg' version="1.0" xmlns="http://www.w3.org/2000/svg"
-        width="50" height="50" viewBox="0 0 2324.000000 1810.000000"
+        width="80" height="80" viewBox="0 0 2324.000000 1810.000000"
         preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,1810.000000) scale(0.100000,-0.100000)"
           fill="#000000" stroke="none">
@@ -24,7 +24,7 @@ function Logo() {
           </g>
         </svg>
         <span className='logo__text'>
-          OSSETIA.LIFE
+          
         </span>
     </div>
   )

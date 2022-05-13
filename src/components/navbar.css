@@ -1,18 +1,30 @@
 .navbar__ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .nabar__li {
     display: flex;
-    justify-content: left;
     align-items: center;
-    margin-top: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.active {
+    font-weight: 600;
+}
+.nabar__li:hover {
+    background: #E7E7E8;
+    padding: 10px 15px;
+    transition: all 0.3s ease 0s;
 }
 
 .nabar__li i {
-    padding-right: 25px;
-    font-size: 1.6rem;
+    padding-right: 15px;
+    font-size: 1.8rem;
 }
 .navbar__link {
     font-size: 1.4rem;
     text-align: left;
+    padding-top: -10px;
+    font-family: 'RobotoFlex', sans-serif;
 }
