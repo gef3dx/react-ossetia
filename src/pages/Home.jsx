@@ -6,7 +6,12 @@ function home() {
   return (
     <div className='line'>
       <div className='main-title sticky-top'>
-        <h1>Главная</h1> 
+        <div>
+          <h1>Главная</h1> 
+        </div>
+        <div className='soc'>
+          <i class='bx bxl-telegram'></i>
+        </div>
       </div>
       <Post />
     </div>

@@ -3,7 +3,8 @@ import Logo from'./components/Logo'
 import Navbar from'./components/Navbar'
 import Home from'./pages/Home'
 import './fonts/fontawesome6/all.min.css'
-import Baner from './assets/images/banner_03.jpg'
+import './components/Sidebar'
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Home />
           </div>
           <div className='col-3'>
-            <img src={Baner} alt="" className="img-fluid" />
+              <Sidebar />
           </div>
         </div>
       </div>

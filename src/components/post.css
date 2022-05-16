@@ -1,0 +1,48 @@
+.post {
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 15px 10px 15px;
+}
+.post:hover {
+    background-color: #fbfbfb;
+    transition: all 0.3s ease 0s;
+}
+.post small {
+    font-size: 10px;
+    font-family: 'RobotoFlex', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+.post__title {
+    font-size: 25px;
+    font-family: 'RobotoFlex', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 10px;
+}
+.post__img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
+.soc {
+    width: 100%;
+    text-align: right;
+}
+.soc i {
+    font-size: 22px;
+}
+.post__img:hover{
+    transform: scale(1);
+    
+}
+.post__news {
+    font-family: 'RobotoFlex', sans-serif;
+    font-size: 18px;
+}
