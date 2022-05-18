@@ -13,10 +13,11 @@
     margin-right: 10px;
     font-weight: 400;
     text-transform: uppercase;
-    background-color: rgb(0, 0, 0);
+    background: rgb(238,174,202);
+    background: linear-gradient(153deg, rgb(62, 62, 62) 0%, rgb(0, 0, 0) 100%);
     color: #fff;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 .post__title {
     font-size: 25px;
