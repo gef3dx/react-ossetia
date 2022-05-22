@@ -1,8 +1,8 @@
 import React from 'react'
 import Post from '../components/Post'
-import './home.css'
+import './css/home.css'
 
-function home() {
+function Home() {
   return (
     <div className='line'>
       <div className='main-title sticky-top'>
@@ -18,4 +18,4 @@ function home() {
   )
 }
 
-export default home;
+export default Home;

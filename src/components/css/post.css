@@ -1,6 +1,7 @@
 .post {
     border-bottom: 1px solid #ebebeb;
     padding: 10px 15px 10px 15px;
+    transition: all 0.3s ease 0s;
 }
 .post:hover {
     background-color: #fbfbfb;

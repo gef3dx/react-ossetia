@@ -1,6 +1,6 @@
 import React from 'react'
 import Baner from '../assets/images/banner_03.jpg'
-import './sidebar.css'
+import './css/sidebar.css'
 
 function Sidebar() {
   return (

@@ -1,9 +1,10 @@
 import React from 'react'
-import "./logo.css"
+import {Link} from 'react-router-dom'
+import "./css/logo.css"
 
 function Logo() {
   return (
-    <div className='logo'>
+    <Link className='logo' to="/">
         <svg className='logo__svg' version="1.0" xmlns="http://www.w3.org/2000/svg"
         width="80" height="80" viewBox="0 0 2324.000000 1810.000000"
         preserveAspectRatio="xMidYMid meet">
@@ -23,10 +24,7 @@ function Logo() {
             2 -521 4 -1159 4 l-1158 0 -2674 -4637z"/>
           </g>
         </svg>
-        <span className='logo__text'>
-          
-        </span>
-    </div>
+    </Link>
   )
 }
 export default Logo;

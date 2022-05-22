@@ -1,5 +1,5 @@
 import React from 'react'
-import './post.css'
+import './css/post.css'
 import News from '../assets/images/WebResource.jpg'
 import News1 from '../assets/images/osetyaz-300x169.jpg'
 

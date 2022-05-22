@@ -9,6 +9,8 @@
     padding: 10px 15px;
     border-radius: 20px;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #000000;
 }
 .active {
     font-weight: 600;
@@ -17,6 +19,8 @@
     background: #E7E7E8;
     padding: 10px 15px;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #000000;
 }
 
 .nabar__li i {
@@ -28,4 +32,8 @@
     text-align: left;
     padding-top: -10px;
     font-family: 'RobotoFlex', sans-serif;
+
+}
+.navbar__link:hover {
+    color: #000000;
 }

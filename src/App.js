@@ -1,10 +1,15 @@
-import './App.css';
+import {Routes, Route, Outlet} from 'react-router-dom'
+
 import Logo from'./components/Logo'
+import Sidebar from './components/Sidebar'
 import Navbar from'./components/Navbar'
+
 import Home from'./pages/Home'
+import News from'./pages/News'
+import Films from'./pages/Films'
+
 import './fonts/fontawesome6/all.min.css'
-import './components/Sidebar'
-import Sidebar from './components/Sidebar';
+import './App.css';
 
 function App() {
   return (
@@ -18,7 +23,15 @@ function App() {
             </div>
           </div>
           <div className='col-7'>
-            <Home />
+            <Routes>
+              <Route path='/'>
+                <Route index element={<Home />} />
+                <Route path='news' element={<News />} />
+                <Route path='films' element={<Films />} />
+                <Route path='*' element={<Home />} />
+              </Route>
+            </Routes>
+            <Outlet />
           </div>
           <div className='col-3'>
               <Sidebar />
