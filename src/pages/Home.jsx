@@ -1,6 +1,7 @@
-import React from 'react'
-import Post from '../components/Post'
-import './css/home.css'
+
+import Post from '../components/Post';
+
+import './css/home.css';
 
 function Home() {
   return (
@@ -10,10 +11,11 @@ function Home() {
           <h1>Главная</h1> 
         </div>
         <div className='soc'>
-          <i class='bx bxl-telegram'></i>
+          <i className='bx bxl-telegram'></i>
+          <i className='bx bxl-vk'></i>
         </div>
       </div>
-      <Post />
+      <Post url="https://api.ossetia.life/api/v1/all"/>
     </div>
   )
 }

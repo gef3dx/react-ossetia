@@ -1,10 +1,9 @@
 @font-face {
     font-family: "RobotoFlex";
     font-weight: 300;
-    src: url("./fonts/RobotoFlex.ttf") format("truetype");
+    src: url("../../fonts/RobotoFlex.ttf") format("truetype");
 }
 body {
     text-decoration: none;
     color: #000000;
 }
-
