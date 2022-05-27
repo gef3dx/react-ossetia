@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { Link } from 'react-router-dom';
 
 import './css/post.css'
 import News from '../assets/images/WebResource.jpg'
@@ -24,12 +25,12 @@ function Post(props) {
     <div className='posts'>
       {post.map((recipe) => {
         return(
-          <div className='post' key={recipe.id}>
-          <h2 className='post__title'>{recipe.title}</h2>
-          <small>{recipe.category}</small>
-          <small>{recipe.date}</small>
-          <img src={recipe.img} alt="{recipe.title}" className="img-fluid post__img" />
-          <p className='post__news' dangerouslySetInnerHTML={{__html: recipe.content.substring(0, recipe.content.substring(0, 210).lastIndexOf(' ')) + ' ...'}}></p>
+          <div className='post' key={recipe.id} to="/">
+            <h2 className='post__title'>{recipe.title}</h2>
+            <small>{recipe.category}</small>
+            <small>{recipe.date}</small>
+            <img src={recipe.img} alt="{recipe.title}" className="img-fluid post__img" />
+            <p className='post__news' dangerouslySetInnerHTML={{__html: recipe.content.substring(0, recipe.content.substring(0, 210).lastIndexOf(' ')) + ' ...'}}></p>
           </div>
         );
       })}
